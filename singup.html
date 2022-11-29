@@ -84,21 +84,21 @@
   </head>
   <body class="text-center">
 
-<main class="form-signin w-100 m-auto">
-  <form>
+<main  class="form-signin w-100 m-auto" >
+  <form action="/" method="post" class="text-center">
     <img class="mb-4" src="/image/logoclean.png" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Singup to my Newsletter</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control top" placeholder="First Name" required autofocus>
+      <input type="text" name="fname" class="form-control top" placeholder="First Name" required autofocus>
 
     </div>
     <div class="form-floating">
-      <input type="text" class="form-control middle" placeholder="Last Name" required>
+      <input type="text" name="lname" class="form-control middle" placeholder="Last Name" required>
 
     </div>
     <div class="form-floating">
-      <input type="email" class="form-control bottom" placeholder="Email" required>
+      <input type="email" name="email" class="form-control bottom" placeholder="Email" required>
 
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me Up</button>
